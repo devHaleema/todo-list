@@ -83,3 +83,10 @@ li p {
 .butt {
   text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
